@@ -36,7 +36,7 @@ FieldTrip and MNE-Python have similar but not identical processing pipelines. A 
 
 Therefore, we will need to import and export Raw, Epochs, and Evoked datatypes.
 
-The aim is to pass the channel=level data between FieldTrip and MNE. Reading is implemented through the **[ft_read_header](https://github.com/fieldtrip/fieldtrip/blob/release/fileio/ft_read_header.m)** and **[ft_read_data](https://github.com/fieldtrip/fieldtrip/blob/release/fileio/ft_read_data.m)** functions. Writing is implemented through the ad-hoc **[fieldtrip2fiff](https://github.com/fieldtrip/fieldtrip/blob/release/fieldtrip2fiff.m)** function.
+The aim is to pass the channel-level data between FieldTrip and MNE. Reading is implemented through the **[ft_read_header](https://github.com/fieldtrip/fieldtrip/blob/release/fileio/ft_read_header.m)** and **[ft_read_data](https://github.com/fieldtrip/fieldtrip/blob/release/fileio/ft_read_data.m)** functions. Writing is implemented through the ad-hoc **[fieldtrip2fiff](https://github.com/fieldtrip/fieldtrip/blob/release/fieldtrip2fiff.m)** function.
 
 ## Procedure
 
